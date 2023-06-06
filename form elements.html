@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+  <table border="1" align="center">
+    <tr>
+        <td colspan="2">
+            <h2>Form Elements</h2>
+        </td>
+    </tr> 
+    <tr>
+        <td><label for="">user name</label>
+            <td><input type="text" pattern="\w{3,16}" name="username" autocomplete="off" placeholder="Enter User name" id="username" required></td>
+        </tr>
+            <tr>
+            </tr>
+        <td><label for="">value attr example </label>
+        <td><input type="text" name="val" value="something" id="val"></td>
+    <tr>
+        <tr>
+            <td><label for="">readonly</label></td>
+        <td><input type="text" name="readonly" readonly value="something" id="readonly"></td>
+        </tr>
+        <tr>
+            <td> <label for="">disabled</label></td>
+            <td><input type="text" name="disabled" disabled value="something" id="disabled"></td>
+        </tr>
+        <tr>
+            <td> <label for="">password</label></td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <td> <label for="">Email</label></td>
+            <td><input type="email" name="" id=""></td>
+        </tr>
+        <tr>
+            <td> <label for="">gender</label></td>
+            <td><input type="radio" name="gender" id="male" value="male"> <label for="male">male</label>
+                <input type="radio" name="gender" id="female" value="female"> <label for="female">female</label>
+            </td>
+             <tr>
+                <tr>
+                    <td> <label for="">hobbies</label></td>
+                    <td>
+                        <input type="checkbox" name="chk[]" value="music" id="music"> <label for="music">music</label>
+                        <input type="checkbox" name="chk[]" value="reading" id="reading> <label for="reading">reading</label>
+                        <input type="checkbox" name="chk[]" value="cricket" id="cricket> <label for="cricket">cricket</label>
+                        <input type="checkbox" name="chk[]" value="travelling" id="travelling> <label for="travelling">travelling</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">city</label></td>
+                    <td>
+                        <select name="city" id="city">
+                            <option value="">select city</option>
+                            <option value="ahemdabad">ahemdabad</option>
+                            <option value="baroda">baroda</option>
+                            <option value="surat">surat</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">education</label></td>
+                    <td>
+                        <select name="" id="" multiple>
+                            <option value="10th">10th</option>
+                            <option value="12th">12th</option>
+                            <option value="BCA">BCA</option>
+                            <option value="B.Com">B.Com</option>
+                            <option value="M.Com">M.Com</option>
+                            <option value="B.ed">B.ed</option>
+                        </select>
+                    </td>
+                    <tr>
+                        <td><label for="">address</label></td>
+                        <td>
+                            <textarea name="" id="" cols="50" rows="3"></textarea>
+                        </td>
+                    </tr>
+                </tr>
+
+  </table>      
+
+
+    </form>
+</body>
+</html>
